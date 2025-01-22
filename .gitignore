@@ -1,1 +1,19 @@
+# Regeln von GitIgnore
+#---------------
+
+# 1. Ignorieren von Dateien
 Readme.md
+
+# 2. Ignorieren von Ordnern mit Inhalt
+logs/
+
+# 3. Ignorieren von Dateien mit diversen Datei-Erweiterungen
+*.txt
+*.md
+
+# 4. Ignorieren von Dateien mit diversen Datei-Erweiterungen in einem Ordner aber nicht im gesamten Projekt
+/logs/*.txt
+
+# 5. Ignorieren von Dateien mit diversen Datei-Erweiterungen mit Ausnahme(n)
+*.log
+!important.log
